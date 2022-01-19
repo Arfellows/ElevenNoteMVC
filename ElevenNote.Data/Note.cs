@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ElevenNote.Data
 {
-    class Note
+    public class Note
     {
         [Key]
         public int NoteID { get; set; }
